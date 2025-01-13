@@ -14,8 +14,8 @@ public class QuestionPractice {
 //        firstElement();
 //        totalElementPresentInList();
 //        findMaxElementInList();
-        firstNonRepeatedCharacterInString();
-
+//        firstNonRepeatedCharacterInString();
+        firstRepeatedCharacterIn();
     }
 
 
@@ -111,6 +111,30 @@ public class QuestionPractice {
 
 //  8. Given a String, find the first repeated character in it using Stream functions?
     public  static  void  firstRepeatedCharacterIn(){
-        String s = "";
+        String s = "ALsWBaSasA";
+        s.chars().mapToObj(c -> (char) c).collect(Collectors.groupingBy(c -> c, LinkedHashMap::new, Collectors.counting()))
+                .entrySet().stream().filter(c -> c.getValue() > 1)
+                .map(Map.Entry::getKey)
+                .findFirst().ifPresent(System.out::println);
+
+        s.chars() // Convert the string to an IntStream
+                .mapToObj(c -> (char) c) // Convert int to char
+                .filter(new HashSet<>()::add) // Keep only characters that cannot be added to the set (duplicates)
+                .findFirst() // Get the first duplicate
+                .ifPresent(System.out::println);
     }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 }
