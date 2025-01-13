@@ -15,7 +15,8 @@ public class QuestionPractice {
 //        totalElementPresentInList();
 //        findMaxElementInList();
 //        firstNonRepeatedCharacterInString();
-        firstRepeatedCharacterIn();
+//        firstRepeatedCharacterInString();
+        sortTheList();
     }
 
 
@@ -110,7 +111,7 @@ public class QuestionPractice {
     }
 
 //  8. Given a String, find the first repeated character in it using Stream functions?
-    public  static  void  firstRepeatedCharacterIn(){
+    public  static  void  firstRepeatedCharacterInString(){
         String s = "ALsWBaSasA";
         s.chars().mapToObj(c -> (char) c).collect(Collectors.groupingBy(c -> c, LinkedHashMap::new, Collectors.counting()))
                 .entrySet().stream().filter(c -> c.getValue() > 1)
@@ -124,7 +125,23 @@ public class QuestionPractice {
                 .ifPresent(System.out::println);
     }
 
+//  9. Given a list of integers, sort all the values present in it using Stream functions?
+    public  static  void  sortTheList(){
+        List<Integer> myList = Arrays.asList(10,15,8,49,25,98,98,32,15);
+        myList.stream().sorted().forEach(System.out::println);
 
+    }
+//  10. Given a list of integers, sort all the values present in it in descending order using Stream functions?
+    public  static  void  sortTheListInDesc(){
+        List<Integer> myList = Arrays.asList(10,15,8,49,25,98,98,32,15);
+//        myList.stream().sorted((i , j) -> i < j).forEach(System.out::println); need decision
+
+
+        myList.stream()
+                .sorted(Comparator.reverseOrder()) // Sorts in descending order
+                .forEach(System.out::println);
+
+    }
 
 
 
