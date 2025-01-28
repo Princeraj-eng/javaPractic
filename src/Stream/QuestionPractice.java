@@ -2,7 +2,6 @@ package Stream;
 
 import java.util.*;
 import java.util.stream.Collectors;
-import java.util.stream.Stream;
 
 public class QuestionPractice {
 
@@ -16,7 +15,8 @@ public class QuestionPractice {
 //        findMaxElementInList();
 //        firstNonRepeatedCharacterInString();
 //        firstRepeatedCharacterInString();
-        sortTheList();
+//        sortTheList();
+        System.out.println(contentDublicates());
     }
 
 
@@ -140,6 +140,13 @@ public class QuestionPractice {
         myList.stream()
                 .sorted(Comparator.reverseOrder()) // Sorts in descending order
                 .forEach(System.out::println);
+
+    }
+//  11. Given an integer array nums, return true if any value appears at least twice in the array, and return false if every element is distinct.
+    public static Boolean contentDublicates(){
+        List<Integer> myList = Arrays.asList(10,15,8,49,25,98,98,32,15);
+        return   myList.stream().collect(Collectors.groupingBy( n -> n, Collectors.counting()))
+                .values().stream().allMatch( count -> count > 1);
 
     }
 

@@ -1,0 +1,51 @@
+# Java String Practice for Interviews
+
+This document serves as a compilation of Java string-related interview questions and their solutions for practice.
+
+## Questions
+
+1. **Reverse a String**
+   Write a program to reverse a given string without using in-built methods.
+
+2. **Check Palindrome**
+   Determine if a given string is a palindrome (reads the same forward and backward).
+
+3. **Count Vowels and Consonants**
+   Count the number of vowels and consonants in a string.
+
+4. **Find Duplicates**
+   Identify and count duplicate characters in a string.
+
+5. **String Anagram Check**
+   Check if two strings are anagrams of each other.
+
+6. **Remove Duplicates**
+   Remove duplicate characters from a string while maintaining order.
+
+7. **Character Frequency**
+   Find the frequency of each character in a string.
+
+8. **First Non-Repeated Character**
+   Find the first non-repeated character in a string.
+
+9. **Reverse Words in a Sentence**
+   Reverse the order of words in a sentence.
+
+10. **Check Substring**
+    Check if one string is a substring of another without using in-built methods.
+
+11. **String Compression**
+    Implement a method to perform basic string compression using the counts of repeated characters (e.g., "aaabb" -> "a3b2").
+
+12. **Remove a Character**
+    Remove a specific character from a string.
+
+13. **Find Longest Substring Without Repeating Characters**
+    Find the length of the longest substring in a string without repeating characters.
+
+14. **Convert String to Integer**
+    Write a method to convert a string to an integer (implement your version of `Integer.parseInt`).
+
+15. **String Rotation Check**
+    Check if one string is a rotation of another string (e.g., "abcd" and "cdab").
+
