@@ -149,6 +149,11 @@ public class QuestionPractice {
                 .values().stream().allMatch( count -> count > 1);
 
     }
+//
+//    public static void ee(){
+//        List<Integer> myList = Arrays.asList(10,15,8,49,25,98,98,32,15);
+//        myList.stream().map()
+//    }
 
 
 
