@@ -29,25 +29,25 @@
         Not handling potential NullPointerExceptions when using operations like map, flatMap, or filter.
         Forgetting to handle exceptions thrown by stream operations.
 
-    Q. Explain the usage of Stream.concat method in Java.
+    Q. Explain the usage of Streams.concat method in Java.
 
-    The Stream.concat method in Java is used to concatenate two streams into a single stream. It takes two streams as arguments and returns a new stream consisting of the elements of the first stream followed by the elements of the second stream.
+    The Streams.concat method in Java is used to concatenate two streams into a single stream. It takes two streams as arguments and returns a new stream consisting of the elements of the first stream followed by the elements of the second stream.
 
     List<String> list1 = Arrays.asList("apple", "banana", "orange");
     List<String> list2 = Arrays.asList("grape", "melon", "pineapple");
 
-    Stream<String> stream1 = list1.stream();
-    Stream<String> stream2 = list2.stream();
+    Streams<String> stream1 = list1.stream();
+    Streams<String> stream2 = list2.stream();
 
-    Stream<String> concatenatedStream = Stream.concat(stream1, stream2);
+    Streams<String> concatenatedStream = Streams.concat(stream1, stream2);
     concatenatedStream.forEach(System.out::println);
 
     Q. How do you create a stream of random numbers in Java?
 
-    You can create a stream of random numbers in Java using the Random class along with the Stream.generate method. For example:
+    You can create a stream of random numbers in Java using the Random class along with the Streams.generate method. For example:
 
     Random random = new Random();
-    Stream<Integer> randomNumbers = Stream.generate(random::nextInt);
+    Streams<Integer> randomNumbers = Streams.generate(random::nextInt);
 
     Q. What are the performance considerations when using parallel streams in Java?
 
@@ -69,15 +69,15 @@
                  .average()                  // Calculate the average
                  .orElse(0);                 // If no average, return 0
 
-    Q. Explain the usage of Stream.Builder in Java.
+    Q. Explain the usage of Streams.Builder in Java.
 
-    Stream.Builder is a helper interface in Java used to build streams. It allows you to manually add elements to a stream one-by-one and then build the final stream. This is useful when you need to construct a stream dynamically. Here's an example:
+    Streams.Builder is a helper interface in Java used to build streams. It allows you to manually add elements to a stream one-by-one and then build the final stream. This is useful when you need to construct a stream dynamically. Here's an example:
 
-    Stream.Builder<Integer> builder = Stream.builder();
+    Streams.Builder<Integer> builder = Streams.builder();
     builder.add(1);
     builder.add(2);
     builder.add(3);
-    Stream<Integer> stream = builder.build();
+    Streams<Integer> stream = builder.build();
 
     Q. How do you perform grouping and aggregation operations on Java streams?
 
@@ -127,27 +127,27 @@
     To create a custom stream source in Java, you can implement the Spliterator interface to define the iteration logic for your data source, and then use StreamSupport.stream() to create a stream from your custom spliterator. Here's a basic example:
 
     Spliterator<String> customSpliterator = new CustomSpliterator();
-    Stream<String> customStream = StreamSupport.stream(customSpliterator, false);
+    Streams<String> customStream = StreamSupport.stream(customSpliterator, false);
 
-    Q. Explain the usage of Stream.ofNullable method in Java.
+    Q. Explain the usage of Streams.ofNullable method in Java.
 
-    The Stream.ofNullable method in Java was introduced in JDK 9. It creates a stream with a single element if the provided value is non-null, or an empty stream if the value is null. This is useful for avoiding null checks when working with streams. For example:
+    The Streams.ofNullable method in Java was introduced in JDK 9. It creates a stream with a single element if the provided value is non-null, or an empty stream if the value is null. This is useful for avoiding null checks when working with streams. For example:
 
     String name = null;
-    Stream<String> stream = Stream.ofNullable(name);
+    Streams<String> stream = Streams.ofNullable(name);
 
     Q. How do you create a stream from an array in Java?
 
     You can create a stream from an array in Java using the Arrays.stream() method. This method takes an array as an argument and returns a stream of the array's elements. For example:
 
     int[] numbers = {1, 2, 3, 4, 5};
-    Stream<Integer> stream = Arrays.stream(numbers);
+    Streams<Integer> stream = Arrays.stream(numbers);
 
-    Q. Explain the usage of Stream.empty method in Java.
+    Q. Explain the usage of Streams.empty method in Java.
 
-    The Stream.empty method in Java returns an empty sequential stream. This stream contains no elements and can be useful as a placeholder or default value when no other stream is available. For example:
+    The Streams.empty method in Java returns an empty sequential stream. This stream contains no elements and can be useful as a placeholder or default value when no other stream is available. For example:
 
-    Stream<String> emptyStream = Stream.empty();
+    Streams<String> emptyStream = Streams.empty();
 
     Q. Explain the concept of statefulness in Java streams.
 
