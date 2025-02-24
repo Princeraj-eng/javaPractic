@@ -49,3 +49,18 @@ This document serves as a compilation of Java string-related interview questions
         15. **String Rotation Check**
             Check if one string is a rotation of another string (e.g., "abcd" and "cdab").
 
+
+
+            Strings
+            1. https://lnkd.in/ejjJ_8cx
+            2. https://lnkd.in/eEYze3yB
+            3. https://lnkd.in/euVfY5iH
+            4. https://lnkd.in/eZkiKrx2
+            5. https://lnkd.in/eaa4syG6
+            6. https://lnkd.in/exeASjz4
+            7. https://lnkd.in/eUvzRPzd
+            8. https://lnkd.in/ezCMekqv
+            9. https://lnkd.in/e2NxmNgi
+            10. https://lnkd.in/eR6y-Bm7
+
+
