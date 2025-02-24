@@ -1,0 +1,18 @@
+Circular Dependencies in Spring
+@lazy in spring boot vs autowired
+ClassNotFoundException Vs NoClassDefFoundError in Java
+Method Chaining In Java with Examples
+Constructor Chaining In Java with Examples
+What's the difference between fixed rate and fixed delay in Spring Scheduled annotation?
+Configure Multiple Datasource in Spring Boot Application
+IdentityHashMap class in Java
+https://blog.devgenius.io/java-8-coding-and-programming-interview-questions-and-answers-62512c44f062
+https://medium.com/@mehar.chand.cloud/java-stream-hard-interview-questions-54ea0de40acc
+https://developers.turing.com/dashboard/jobs
+https://medium.com/@mahammadkhalilov/integrating-apache-flink-with-spring-boot-a-comprehensive-guide-c52d59116aef
+https://blog.devgenius.io/java-8-coding-and-programming-interview-questions-and-answers-62512c44f062
+JPA Entity Lifecycle Events
+Difference between Abstraction and Encapsulation in Java with Examples
+Valid Parentheses in an Expression
+Mask an Email Address and Phone Number in Java
+https://github.com/Java-Techie-jt/java8/blob/master/sort/SortMapDemo.java
