@@ -1,4 +1,4 @@
-package Streams.Java8;
+package Streams.Java8CheatSheet;
 
 import java.util.*;
 import java.util.stream.Collectors;

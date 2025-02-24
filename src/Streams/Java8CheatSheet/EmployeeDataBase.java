@@ -1,4 +1,4 @@
-package Streams.Java8;
+package Streams.Java8CheatSheet;
 
 import java.util.Arrays;
 import java.util.List;

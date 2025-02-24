@@ -1,4 +1,4 @@
-package Streams.Java8;
+package Streams.Java8CheatSheet;
 
 public class Project {
     public Project(String projectCode, String buLeadName, String client, String name) {

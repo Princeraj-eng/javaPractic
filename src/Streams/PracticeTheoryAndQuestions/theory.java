@@ -1,4 +1,4 @@
-package Streams;
+package Streams.PracticeTheoryAndQuestions;
 
 import java.util.Arrays;
 import java.util.List;
