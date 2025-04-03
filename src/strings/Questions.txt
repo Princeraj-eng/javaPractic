@@ -63,4 +63,26 @@ This document serves as a compilation of Java string-related interview questions
             9. https://lnkd.in/e2NxmNgi
             10. https://lnkd.in/eR6y-Bm7
 
+            - Reverse String→https://lnkd.in/esmGPN6i
+            - Reverse Prefix of Word→https://lnkd.in/etVjF63e
+            - Reverse Vowels of a String→https://lnkd.in/eV43Q--K
+            - Reverse Words in a String→https://lnkd.in/eu2JSHUZ
+            - Reverse Words in a String III→https://lnkd.in/ewi34Qev
+            - Valid Palindrome→https://lnkd.in/e36HfMg3
+            - Valid Palindrome II→https://lnkd.in/e32MME4r
+            - Lexicographically Smallest Palindrome→https://lnkd.in/eaMF9tZa
+            - Merge Strings Alternately→https://lnkd.in/eAHxRwm5
+            - Largest Merge of Two Strings→https://lnkd.in/enrz8GRA
+            - Shortest Distance to a Character→https://lnkd.in/eXZbpUPz
+            - DI String Match→https://lnkd.in/e-j9qAHc
+            - Make String a Subsequence Using Cyclic Increments→https://lnkd.in/e8uQvFG2
+            - Count Binary Substrings→https://lnkd.in/ewKQy_GF
+            - Minimum Length of String After Deleting Similar Ends→https://lnkd.in/etXGbT7f
+            - String Compression→https://lnkd.in/e58HVg8S
+            - Separate Black and White Balls→https://lnkd.in/euuvp_Ey
+            - Move Pieces to Obtain a String→https://lnkd.in/ebqBUCUG
+            - Sentence Similarity III→https://lnkd.in/eGUuqmsE
+
+
+
 
